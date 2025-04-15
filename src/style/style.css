@@ -1,0 +1,216 @@
+/* Pagina Principal */
+.nome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin: 100px;
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+  z-index: 0;
+}
+.texto-P {
+  font-size: 35pt;
+  font-weight: 300;
+  width: 750px;
+  text-align: center;
+  margin: auto;
+  margin-top: -100px;
+}
+.texto-P h1 {
+  font-family: "Atteron", serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+.foto-P {
+  text-align: center;
+}
+.foto-P img {
+  width: 250px;
+  height: 430px;
+  z-index: 1;
+  margin-top: -30px;
+  border-radius: 3px;
+}
+section{
+  margin-top: 280px;
+}
+/* OBJETIVO */
+.obj {
+  margin-top: 550px;
+  font-family: "Atteron", serif;
+  letter-spacing: 10px;
+  margin-left: 80px;
+}
+.titulo-obj{
+  font-family: "Atteron", serif;
+font-size: 60pt;
+font-weight: 100;
+}
+.obj p{
+  width: 650px;
+  height: 255px;
+  margin-top: 150px;
+  font-family: "Cardo", serif;
+letter-spacing: 1px;
+text-align: center;
+font-size: 18pt;
+}
+
+/* FORMAÇÃO */
+
+.formacao {
+  margin-top: 550px;
+  font-size: 40pt;
+  font-family: "Atteron", serif;
+  font-weight: 700;
+  letter-spacing: 10px;
+  margin-left: 80px;
+}
+.forma {
+  font-family: "Atteron", serif;
+  font-weight: 100;
+}
+.academia {
+  margin-top: 150px;
+  font-family: "Cardo", serif;
+  letter-spacing: 3px;
+}
+.academia h1 {
+  font-size: 18pt;
+}
+.academia p {
+  margin-top: 15px;
+  font-size: 12pt;
+  font-weight: 100;
+  font-family: "Cardo", serif;
+  letter-spacing: 3px;
+}
+.faculdade {
+  margin-top: 40px;
+}
+.fotos-Form {
+  display: flex;
+  justify-content: flex-end;
+}
+.fotos-Form img {
+  width: 500px;
+  height: 500px;
+  margin-top: -580px;
+  margin-right: 100px;
+  display: grid;
+}
+.bx {
+  font-size: 40px;
+}
+
+/* Projetos */
+
+aside {
+  margin-top: 300px;
+}
+
+.titulo-Pr {
+  margin: 100px;
+}
+.titulo-Pr h1 {
+  font-size: 45pt;
+  font-family: "Atteron", serif;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+.projetos {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 200px;
+}
+.box {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.082);
+  margin: auto;
+  color: aliceblue;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  transition: 0.5s;
+  background-image: url(../imgs/pensador4.jpg);
+  background-repeat: no-repeat no-repeat;
+  background-image: center 450px;
+  opacity: 40%;
+}
+.box:hover{
+color: #000;
+  opacity: 70%;
+}
+/* contato */
+
+.contatos {
+  font-size: 10pt;
+  font-family: "Atteron", serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin-left: 80px;
+  background-color: rgba(48, 47, 47, 0.815);
+  color: #ffff;
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 80px;
+  transition: 0.5s;
+
+}
+.contatos:hover {
+  width: 253px;
+  background-color: rgb(10, 10, 10);
+  transition: 0.5s;
+  cursor: pointer;    
+  transition-delay: 0.5s;
+}
+.contatos h1 {
+  margin: auto;
+  text-align: center;
+  transition: 0.5s;
+
+}
+.box-contato {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  margin-top: -60px;
+  margin-bottom: 80px;
+  display: flex;
+  transition: 0.5s;
+
+  opacity: 0;
+}
+.box-contato a {
+  margin-top: 8px;
+  font-size: 40px;
+  margin: 10px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.5s;
+
+}
+.box-contato a:hover {
+  font-size: 10px;
+  background-color: black;
+  transition: 0.3s;
+  border: 1px solid hsla(125, 99%, 47%, 0.705);
+  color: #ffff;
+  border-radius: 50% ;
+  padding: 8px;
+}
+.cursos {
+  cursor: none;
+}
+.preto{
+  color: #fff;
+  background-color: #000;
+}
